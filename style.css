@@ -1,10 +1,12 @@
+/* Common CSS file */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+/* body for container-1 */
+.mouse-zoom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +17,64 @@ body {
     text-align: center;
 }
 
-.container {
+.mouse-zoom .container-1 {
     padding: 20px;
+}
+
+/* body for container-2 */
+.clock-body {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+.clock-body .container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3d3d3 ;
+}
+
+.clock-body .card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #642df8;
+    max-width: 500px;
+}
+
+
+.clock-body h1{
+    text-align: center;
+    background-color: #642df8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.clock-body .clock{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.clock-body .time-element{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin: 0px 10px ;
+}
+
+.clock-body .colon-element{
+     font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin: 0px 10px ;
 }
