@@ -4,16 +4,10 @@ const hoursContainer = document.querySelector(".hours");
 const minutesContainer = document.querySelector(".minutes");
 const secondsContainer = document.querySelector(".seconds");
 
-const weekDays = [
-    "Sunday", "Monday", "Tuesday", "Wednesday",
-    "Thursday", "Friday", "Saturday"
-];
+const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
 
-const monthNames = [
-    "January", "February", "March", "April",
-    "May", "June", "July", "August",
-    "September", "October", "November", "December"
-];
+const monthNames = ["January", "February", "March", "April",
+"May", "June", "July", "August","September", "October", "November", "December"];
 
 function formatTime(time) {
     return time < 10 ? "0" + time : time;
