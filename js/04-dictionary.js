@@ -18,7 +18,7 @@ searchInput.addEventListener("keyup",(event)=>{
 function search(){
     const searchTerm = searchInput.value.trim();
     if(searchTerm === ''){
-        alert('Please Enter a word to Search..')
+        alert('Please Enter a word to Search...')
         return;
     }
     fetchDictionaryData(searchTerm);
@@ -60,7 +60,7 @@ audioButton.addEventListener("click",()=>{
     const searchTerm = searchInput.value.trim();
     if(searchTerm === ''){
         alert('Please Enter a word to Search..')
-        return;
+        return; 
     }
     speak(searchTerm);
 
