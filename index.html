@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="dictionary-body"> <!-- Note: Change body class as per project-->
+<body class="poll-body"> <!-- Note: Change body class as per project-->
   <!--   #1
     <div class="container-1">
         <h1>Hi... Use Scrollwheel of Mouse to Zoom-In-Out</h1>
@@ -27,7 +27,7 @@
         </div>
     </div>
   -->   
-   <!--  #3    
+  <!--  #3    
   <div class="container-3">
      <div class="clock-container">
         <span class="hours">11:</span>
@@ -37,7 +37,7 @@
      <div class="date-container">Sunday</div>
   </div>
    -->
-    <!-- #4 -->
+    <!-- #4 
     <div class="container-4">
         <header>
             <h1>English Dictionary</h1>
@@ -54,10 +54,39 @@
                 </button>
             </div>
         </div>
+    -->
+    <!-- #5  -->
+    <div class="container-5">
+     <h1>Poll System</h1>
+        <div class="Poll">
+            <h2>What's your favorite language...?</h2>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" id="option1" name="poll" value="option1">
+                    <label for="option1">Java</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option2" name="poll" value="option2">
+                    <label for="option2">C++</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option3" name="poll" value="option3">
+                    <label for="option3">JavaScript</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option4" name="poll" value="option4">
+                    <label for="option4">Python</label>
+                </div>
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <div class="result"></div>
+        </div>
+    </div>    
 
-    <!-- <script src="js/01-mouse-wheel-zoom.js"></script> -->  
- <!--   <script src="js/02-clock.js"></script>  -->
- <!--   <script src="js/03-date-time-widget.js"></script> --> 
-       <script src="js/04-dictionary.js"></script>
+ <!--   <script src="js/01-mouse-wheel-zoom.js"></script>   -->  
+ <!--   <script src="js/02-clock.js"></script>              -->
+ <!--   <script src="js/03-date-time-widget.js"></script>   --> 
+ <!--   <script src="js/04-dictionary.js"></script>         -->
+       <script src="js/05-poll-system.js"></script>
 </body>
 </html>
